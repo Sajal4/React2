@@ -1,0 +1,78 @@
+body {
+  background: linear-gradient(#87aade, #ea8989, #dcc6c6);
+  background-attachment: fixed;
+}
+
+.form-container {
+  text-align: center;
+}
+
+label {
+  line-height: 70px;
+  font-size: large;
+  font-weight: bold;
+}
+
+input {
+  border-radius: 5px;
+  outline: none;
+  outline-offset: none;
+  border: none;
+  font-size: x-large;
+  width: 200px;
+  border: 1px solid black;
+  border-radius: 25px;
+}
+
+label [for="department"] {
+  position: relative;
+  right: 20px;
+}
+
+
+#department {
+  position: relative;
+  right: 20px;
+}
+
+button {
+  border: 20px solid transparent;
+  font-size: small;
+  font-weight: bold;
+  border-radius: 50px;
+  width: 200px;
+  position: relative;
+  top: 25px;
+  cursor: pointer;
+  background-color: lightblue;
+}
+
+button:hover {
+  background-color: #2c5b69;
+}
+
+
+.EmploData {
+  border: 2px solid transparent;
+  border-radius: 10px;
+  width: 85%;
+  position: absolute;
+  top: 60%;
+  left: 5%;
+  background-color: cyan;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.data {
+  width: 350px;
+  height: 100px;
+  border-radius: 10px;
+  background-color: coral;
+  text-align: center;
+  padding-top: 10px;
+  box-sizing: border-box;
+  margin: 20px;
+}
+
